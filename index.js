@@ -1,7 +1,7 @@
 const master = require("./master");
 const url = "https://api-search.720yun.com/search?channelId=0&content=%E5%A4%A7%E5%AD%A6&page=40&selected=2&type=1";
 const timelimit = 60;
-const maxSockets = 100;
+const maxSockets = 200;
 const headers = {
   referer: "https://720yun.com/channel",
   origin: "https://720yun.com",
